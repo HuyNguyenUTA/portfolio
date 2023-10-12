@@ -1,0 +1,47 @@
+$navbar-color: black;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+}
+
+.navbarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50rem;
+  font-size: 25px;
+  gap: 20px;
+  background-color: $navbar-color;
+  cursor: pointer;
+}
+
+.navbarC
+.navbarBox {
+  display: flex;
+  align-items: center;
+}
+
+.about {
+  height: 50rem;
+}
+
+.experience {
+  height: 50rem;
+}
+
+.project {
+  height: 50rem;
+}
+
+.contact {
+  height: 50rem;
+}
